@@ -1,0 +1,193 @@
+.cuerpos {
+    font-family: times new roman;
+    margin: 20px;
+    background: url('../img/login.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    width: 60%;
+}
+@media screen and (min-width: 780px) and (max-width: 1024px){
+    .cuerpos{
+        font-family: times new roman;
+    margin: 20px;
+    background: url('../img/login.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    width: 50%;
+    font-size: 15px;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 780px){
+    .cuerpos{
+       font-family: times new roman;
+    margin: 20px;
+    background: url('../img/login.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    width: 70%;
+    font-size: 12px;
+    }
+}
+@media screen and (max-width: 480px){
+    .cuerpos{
+       font-family: times new roman;
+    margin: 20px;
+    background: url('../img/login.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    width: 70%;
+    font-size: 12px;
+    }
+}
+* {
+    box-sizing: border-box;
+}
+.contenedor_{
+ padding: 50;
+ width: 50;
+}
+.formularios{
+    background: #fff;
+    margin-top: 75px;
+    padding: 15px;
+}
+.h10{
+    text-align: center;
+    color: #1a2537;
+    font-size: 30px;
+}
+
+@media screen and (min-width: 780px) and (max-width: 1024px){
+    .h10{
+        text-align: center;
+    color: #1a2537;
+    font-size: 30px;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 780px){
+    .h10{
+       text-align: center;
+    color: #1a2537;
+    font-size: 25px;
+    }
+}
+@media screen and (max-width: 480px){
+    .h10{
+      text-align: center;
+    color: #1a2537;
+    font-size: 20px;
+    }
+}
+
+.inputs[type="text"],
+.inputp[type="password"]{
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+}
+@media screen and (min-width: 780px) and (max-width: 1024px){
+    .inputs[type="text"],
+    .inputp[type="password"]{
+     font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 780px){
+    .inputs[type="text"],
+    .inputp[type="password"]{
+     font-size: 16px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+    }
+}
+@media screen and (max-width: 480px){
+    .inputs[type="text"],
+    .inputp[type="password"]{
+    font-size: 12px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+    }
+}
+.input-contenedor_{
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+}
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: #999;
+}
+.button{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background:  #1a2537;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+@media screen and (min-width: 780px) and (max-width: 1024px){
+    .button{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background:  #1a2537;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 780px){
+    .button{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 16px;
+    background:  #1a2537;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+}
+@media screen and (max-width: 480px){
+    .button{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 12px;
+    background:  #1a2537;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+}
+.button:hover{
+    background: cadetblue;
+}
+.p1{
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+      color: #1a2537;
+    font-weight: 600;
+}
+.link:hover{
+     color: cadetblue;
+}
+@media(min-width:768px)
+{
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+}
