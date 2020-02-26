@@ -5,12 +5,21 @@
 	<h1>Bienvenido | zona de tutor</h1>
 		<div class="row">
 			<div class="col-xs-8">
-				<input type="text" placeholder="Escriba el nombre del tutor" class="form-control" v-model="buscar">
+				<div class="four wide column">
+			<div class="ui input">
+				<input type="text" placeholder="busque al tutor que desea encontrar" v-model="buscar">
+				<!-- <div class="four wide column">
+			<div class="ui inverted purple button">Buscar</div>
+			
+		</div> -->
+			</div>
+		</div><br>
+				<!-- <input type="text" placeholder="Escriba el nombre del tutor" class="form-control" v-model="buscar"> -->
 			</div>
 		</div>
-<button class="btn btn-success glyphicon glyphicon-user" v-on:click="showModal()">Agregar</button>
+<button class="ui inverted green button" v-on:click="showModal()">Agregar</button>
 <div class="row">
-	<div class="col-xs-12 col-md-6"><br>
+	<div class="col-xs-12 col-md-8"><br>
 		<div class="box box-danger">
 		<table class="table table-bordered">
 			<thead style="background: #ffffcc">
@@ -34,9 +43,9 @@
 					<td>@{{c.crto_b}}</td> -->
 					<td>
 						</div>
-						<span class="btn btn-primary btn-xs glyphicon glyphicon-pencil" v-on:click="editTutor(c.id_curp)"></span>
+						<span class="ui inverted primary button" v-on:click="editTutor(c.id_curp)">Editar</span>
 
-						<span class="btn btn-danger btn-xs glyphicon glyphicon-trash" v-on:click="eliminarTutor(c.id_curp)"></span>
+						<span class="ui inverted red button" v-on:click="eliminarTutor(c.id_curp)">Eliminar</span>
 					</td>
 				</tr>
 			</tbody>
@@ -71,8 +80,8 @@
 					</div>
 
 						<div class="modal-footer">
-							<button type="submit" class="btn btn-primary" v-on:click="agregarTutor()" v-if="!editando">Guardar</button>
-							<button type="submit" class="btn btn-primary" v-on:click="updateTutor()" v-if="editando">Editar</button>
+							<button type="submit" class="ui inverted primary button" v-on:click="agregarTutor()" v-if="!editando">Guardar</button>
+							<button type="submit" class="ui inverted primary button" v-on:click="updateTutor()" v-if="editando">Editar</button>
 						</div>
 					</div>
 				</div>

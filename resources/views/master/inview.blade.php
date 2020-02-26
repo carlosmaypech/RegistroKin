@@ -12,6 +12,7 @@
   
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/semantic.min.css">
   
   <link rel="stylesheet" href="adminlte/css/font-awesome/css/font-awesome.min.css">
   
@@ -241,6 +242,7 @@ desired effect
 <!-- jQuery 3 -->
 <script src="adminlte/jquery/dist/jquery.min.js"></script>
 <script src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/semantic.min.js"></script>
 <!-- Bootstrap 3.3.7 -->
 <script src="adminlte/bootstrap/dist/js/bootstrap.min.js"></script>
 <!-- AdminLTE App -->
